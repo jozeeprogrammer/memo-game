@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memorización</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .button-container {
+            margin: 20px;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 5px;
+        }
+        #message {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Juego de Memorización</h1>
+    <p id="sequence">Memoriza esta secuencia:</p>
+    <div class="button-container">
+        <button onclick="handleInput(1)">1</button>
+        <button onclick="handleInput(2)">2</button>
+        <button onclick="handleInput(3)">3</button>
+        <button onclick="handleInput(4)">4</button>
+        <button onclick="handleInput(5)">5</button>
+        <button onclick="handleInput(6)">6</button>
+    </div>
+    <p id="message"></p>
+    <script src="game.js"></script>
+</body>
+</html>
